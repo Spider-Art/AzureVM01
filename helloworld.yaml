@@ -1,0 +1,11 @@
+---
+- name: Hello World!
+  hosts: all
+ 
+  tasks:
+ 
+  - name: Hello World!
+    shell: echo "Witam! Nasz Tower działa."
+
+  - name: Hello World!
+    shell: ping -c 5 192.168.6.40
